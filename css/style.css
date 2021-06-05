@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville';
+}
+
+header {
+    height: 30px;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    margin: 53px;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+
+.menu .menu_link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    border: outset;
+    padding: 10px;
+
+}
+
+
+.promo {
+    height: 421px;
+    background: url(../img/bg/main.bg1.jpg) center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.logo .logo_img {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+
+
+.title .heading {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.about {
+    min-height: 550px  ;
+    padding: 102px 0 107px 0;
+}
+
+.about .about_me {
+    margin-left: 400px;
+    font-size: 30px;
+    line-height: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #299cbd;
+    
+}
+
+.about .description  {
+    margin-top: 60px;
+    margin-left: 500px;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
+.myself_photo {
+    width: 500px;
+    
+}
+
+.about .myself_photo {
+    position: absolute;
+    top: -54px;
+    left: -50px;
+    z-index: -1;
+}
+
+.education {
+    min-height: 500px;
+    padding:86px 0 79px 0;
+    background: url(../img/bg/fisc.jpg) center center/cover no-repeat;
+}
+
+.heading_educ {
+    margin-top: 30px;
+    margin-left: 700px;
+    font-size: 50px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #4a4a4a;
+    
+}
+
+.educ_descr {
+    margin-top: 60px;
+    margin-right: 500px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: rgba(108, 95, 71, 0.6);
+    border-radius: 5%;
+    
+}
+
+
+footer {
+    min-height: 80px;
+    margin: 0 auto;
+    
+}
+
+.info {
+    margin-top: 20px;
+    margin-left: 400px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.footer_links .finish_item {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 60px;
+    height: 60px;
+    color:black;
+    border: dotted;
+    border-radius: 100%;
+}
+
+
